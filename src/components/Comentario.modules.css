@@ -1,0 +1,46 @@
+.blocoComentario{
+    background-color:aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1rem 0 1rem 0;
+    width: 25rem;
+    border-color:rgb(0, 0, 0);
+    border-radius: 25px;    
+    padding: 0.3rem;
+}
+
+.blocoComentario h1{
+    font-size: 0.7rem;
+    margin-left: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.areaComentario{
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.iconLixo{
+    height: 1rem;
+    width: 1rem;
+    margin-left: 13rem;
+}
+
+.iconLixo:hover{
+    cursor:pointer;
+}
+
+.iconLike{
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5rem;   
+    padding: 0%;
+}
+
+.blocoComentario div button{
+    background-color: aliceblue;
+    border:none;
+    margin-left: 1rem;
+}

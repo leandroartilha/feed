@@ -1,0 +1,95 @@
+.Bloco{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25rem;
+    height: 35rem;
+    background-color: aliceblue;
+    border-radius: 10% 10% 10% 10%;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.headerFeed{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    padding: 0 1rem 0 1rem;
+}
+
+.centralizar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fotoPerfil{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+
+.fotoFeed{
+    width: 22rem;
+    height: 22rem;
+    margin-top: 0.5rem;
+    border-radius: 5%;
+}
+
+.textoFeed{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.horario{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0.3rem;
+}
+
+.botoes button img{
+    height: 1.6rem;
+    width: 1.6rem;
+    
+}
+
+.botoes button{
+    margin: 0.2rem;
+    border: none;
+    background-color: aliceblue;
+}
+
+.botoes button img :hover{
+    cursor:pointer;
+}
+
+.textoPostagem{
+    width: 15rem;
+    border: none;
+    background-color: aliceblue;
+    height: 1rem;
+    font-size: 1rem;
+    margin-top: 0.7rem;
+    margin-left: 0.7rem;
+}
+
+.botaoComentar{
+    transition-duration: 100ms;
+    width: 5rem;
+    background-color: green;
+    color: white;
+    height: 2rem;
+    font-size: 1rem;
+    border-style: none;
+    border-radius: 5%;
+    margin-left: 1rem;
+}
+
+.botaoComentar:disabled{
+    background-color: rgb(14, 71, 14);
+}
+
+.botaoComentar:not(disabled):hover{
+    cursor:pointer;
+}
